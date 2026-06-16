@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Detect Low-Abundance Alzheimer's Biomarkers in Plasma | FOPPR + FONLISA Whitepaper</title>
+<meta name="description" content="FOPPR and FONLISA offer an integrated solution for ultra-sensitive pTau217 plasma detection. FOPPR rapidly identifies optimal antibody pairs; FONLISA converts them into femtomolar-to-attomolar immunoassays deployable beyond centralized labs.">
+<meta name="keywords" content="FONLISA, FOPPR, pTau217, phosphorylated tau, Alzheimer blood test, ultra-sensitive plasma assay, antibody pair selection, epitope binning, fiber optic immunoassay, gold nanoparticle, femtomolar detection, attomolar biomarker, ELISA alternative, SIMOA alternative, SPR alternative, decentralized diagnostics">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="How to Detect pTau217 in Plasma at Femtomolar Sensitivity: FOPPR + FONLISA">
+<meta property="og:description" content="FOPPR identifies the best antibody pairs for Alzheimer's biomarker assays. FONLISA converts them into ultra-sensitive plasma detection — down to 0.110 fg/mL — without bulky lab infrastructure.">
+<meta property="og:type" content="article">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": "#fonlisa-v2-whitepaper",
+      "name": "Illuminating the Unseen: How to Turn Low-Abundance Alzheimer's Biomarkers into Actionable Signals",
+      "headline": "How to detect pTau217 in plasma at femtomolar sensitivity using FOPPR antibody screening and FONLISA ultra-sensitive immunoassay",
+      "description": "FOPPR and FONLISA provide an integrated workflow for Alzheimer's blood biomarker development. FOPPR delivers real-time, label-free antibody-pair screening and epitope binning. FONLISA achieves femtomolar-to-attomolar plasma detection — demonstrated at 0.110 fg/mL LoD for pTau217 — in a compact fiber-optic analyzer suitable for decentralized testing.",
+      "keywords": [
+        "How to detect pTau217 in plasma at femtomolar sensitivity",
+        "Best way to select antibody pairs for Alzheimer immunoassay",
+        "How to solve low-abundance biomarker detection in plasma",
+        "How to perform epitope binning without regeneration steps",
+        "Best alternative to ELISA for ultra-sensitive tau detection",
+        "How to achieve sub-femtomolar Alzheimer biomarker detection",
+        "How to reduce background noise in plasma biomarker assays",
+        "How to screen antibody pairs faster than conventional SPR",
+        "Best way to translate antibody characterization to immunoassay performance",
+        "How to enable decentralized Alzheimer biomarker testing"
+      ],
+      "articleSection": [
+        "Clinical Challenge and Scientific Obstacle",
+        "What an Alzheimer Blood Test Must Solve",
+        "Solution: FOPPR and FONLISA",
+        "pTau217 Plasma Detection Data",
+        "Why FONLISA Matters vs Competing Technologies",
+        "What Problem Does FONLISA Solve",
+        "Conclusion"
+      ],
+      "about": [
+        {
+          "@type": "MedicalCondition",
+          "name": "Alzheimer's Disease",
+          "alternateName": ["AD", "Alzheimer Disease"],
+          "code": { "@type": "MedicalCode", "codeValue": "G30", "codingSystem": "ICD-10" }
+        },
+        {
+          "@type": "MedicalTest",
+          "name": "FONLISA pTau217 Plasma Assay",
+          "description": "Fiber-Optic Nanoparticle-Linked Immunosorbent Assay for femtomolar-to-attomolar detection of pTau217 in plasma, using FOPPR-selected antibody pairs",
+          "usedToDiagnose": { "@type": "MedicalCondition", "name": "Alzheimer's Disease" },
+          "bodyLocation": "Blood / Plasma",
+          "howPerformed": "Sandwich immunoassay: capture antibody coated on glass fiber; detection antibody conjugated to gold nanoparticle; evanescent wave optical signal readout"
+        },
+        {
+          "@type": "MedicalDevice",
+          "name": "FOPPR",
+          "description": "Fiber-Optic Plasmon Photonic Resonance instrument for real-time, label-free antibody screening, affinity ranking, and epitope binning — evaluates up to four antibodies per run with no regeneration step"
+        }
+      ],
+      "mentions": [
+        {"@type": "BioChemEntity", "name": "pTau217", "alternateName": ["phospho-tau 217", "p-tau217", "phosphorylated tau at threonine-217"]},
+        {"@type": "BioChemEntity", "name": "Total tau"},
+        {"@type": "ChemicalSubstance", "name": "Gold nanoparticle", "alternateName": "AuNP"}
+      ],
+      "mainEntityOfPage": "#fonlisa-v2-whitepaper",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How to detect pTau217 in plasma at femtomolar sensitivity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the FOPPR + FONLISA workflow. FOPPR first screens and ranks antibody pairs, identifying those with high affinity and compatible epitopes for a sandwich configuration. The selected pair is then applied in FONLISA: the capture antibody is coated on a glass fiber; the detection antibody carries a gold nanoparticle label. When pTau217 is present, the sandwich forms and generates a strong optical signal via the evanescent wave — achieving detection down to 0.110 fg/mL LoD."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best way to select antibody pairs for an Alzheimer's plasma immunoassay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FOPPR performs real-time, label-free binding analysis, affinity ranking, and epitope binning in a single run evaluating up to four antibodies simultaneously. Because no regeneration step is required, screening is faster, ligand damage is avoided, and baseline instability is eliminated — revealing which antibody pairs can form compatible sandwiches before committing to a full immunoassay development cycle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is pTau217 harder to detect than total tau?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "pTau217 represents only a small fraction of total tau in plasma. This low relative abundance — combined with background interference and matrix effects in plasma — means that only ultra-sensitive platforms with very low background noise can reliably quantify it at clinically meaningful concentrations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does FONLISA compare to ELISA and SIMOA for plasma tau detection?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ELISA typically cannot reach the concentration range required for early Alzheimer's biomarkers. SIMOA and ELISA are endpoint assays — they provide a single final signal after incubation, which can miss fast-dissociating antibodies. FONLISA measures binding in real time, captures kinetic information (ka/kd), and achieves femtomolar-to-attomolar sensitivity in a compact, decentralized-compatible analyzer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to reduce background noise in plasma-based pTau217 assays?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FONLISA's sandwich design ensures the gold nanoparticle signal is generated only when the target biomarker is captured between both antibodies. This dual-recognition requirement keeps background noise very low even in complex plasma matrices, supporting reliable quantification at sub-femtomolar concentrations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to enable Alzheimer's biomarker testing outside centralized laboratories?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FONLISA is built around a compact fiber-optic analyzer using glass fiber and microfluidics with no external tubing. Its small footprint and low power requirements make it suitable for decentralized settings — enabling ultra-sensitive plasma biomarker testing beyond large academic medical centers."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ink: #1a3a5c;
+    --ink-muted: #4a5568;
+    --ink-faint: #8a96a3;
+    --accent: #0a4b8c;
+    --accent-light: #e6f0fa;
+    --accent-mid: #1a6bbf;
+    --rule: #d1dce8;
+    --surface: #f8fafc;
+    --white: #ffffff;
+    --warn: #7c3a00;
+    --warn-bg: #fef3e2;
+    --success: #0f4c2a;
+    --success-bg: #e6f4ed;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 16px; scroll-behavior: smooth; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    color: var(--ink);
+    background: var(--white);
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page { max-width: 860px; margin: 0 auto; padding: 0 2rem; }
+
+  header {
+    background: var(--ink);
+    color: var(--white);
+    padding: 5rem 2rem 4rem;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: repeating-linear-gradient(
+      -55deg, transparent, transparent 40px,
+      rgba(255,255,255,0.015) 40px, rgba(255,255,255,0.015) 41px
+    );
+    pointer-events: none;
+  }
+  .header-inner { max-width: 860px; margin: 0 auto; position: relative; }
+  .header-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 1.5rem;
+    display: flex; align-items: center; gap: 0.6rem;
+  }
+  .header-tag::before {
+    content: '';
+    display: inline-block; width: 2rem; height: 1px;
+    background: var(--white);
+  }
+  h1.title {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    line-height: 1.15;
+    font-weight: 400;
+    color: var(--white);
+    margin-bottom: 1.25rem;
+    max-width: 700px;
+  }
+  h1.title em { font-style: italic; color: #7eb8f0; }
+  .header-sub {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--white);
+    max-width: 580px;
+    line-height: 1.65;
+  }
+  .header-meta {
+    margin-top: 2.5rem;
+    display: flex; flex-wrap: wrap; gap: 1.5rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--white);
+    letter-spacing: 0.08em;
+  }
+  .header-meta span::before { content: '// '; color: rgba(255,255,255,0.4); }
+
+  nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--rule);
+    position: sticky; top: 0; z-index: 100;
+  }
+  .nav-inner {
+    max-width: 860px; margin: 0 auto; padding: 0 2rem;
+    display: flex; align-items: center; overflow-x: auto;
+  }
+  .nav-inner a {
+    display: block; padding: 0.9rem 1.1rem;
+    font-size: 0.78rem; font-weight: 400;
+    color: var(--ink-muted); text-decoration: none;
+    white-space: nowrap; letter-spacing: 0.02em;
+    border-bottom: 2px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .nav-inner a:hover { color: var(--accent); border-color: var(--accent); }
+
+  main { padding: 3rem 0 5rem; }
+  section { margin-bottom: 4rem; scroll-margin-top: 3.5rem; }
+
+  h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: var(--ink);
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--rule);
+    line-height: 1.25;
+  }
+  h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--accent);
+    margin: 2rem 0 0.6rem;
+    letter-spacing: 0.01em;
+    display: flex; align-items: center; gap: 0.5rem;
+  }
+  h3::before {
+    content: '';
+    display: inline-block; width: 0.5rem; height: 0.5rem;
+    border-radius: 50%; background: var(--accent);
+    flex-shrink: 0;
+  }
+  p { margin-bottom: 1rem; font-size: 0.97rem; }
+  p:last-child { margin-bottom: 0; }
+  strong { font-weight: 500; color: var(--ink); }
+
+  .callout {
+    border-left: 3px solid var(--accent);
+    background: var(--accent-light);
+    padding: 1.1rem 1.4rem;
+    border-radius: 0 6px 6px 0;
+    margin: 1.75rem 0;
+  }
+  .callout-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+  }
+  .callout p { font-size: 0.93rem; color: #0f2d4a; margin: 0; line-height: 1.65; }
+  .callout.warn { border-color: #c07000; background: var(--warn-bg); }
+  .callout.warn .callout-label { color: var(--warn); }
+  .callout.warn p { color: var(--warn); }
+
+  .stat-strip {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1.75rem 0;
+  }
+  .stat-cell { background: var(--white); padding: 1.25rem 1.5rem; }
+  .stat-num {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2rem;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 0.35rem;
+  }
+  .stat-label { font-size: 0.78rem; color: var(--ink-muted); line-height: 1.4; }
+
+  ul, ol { padding-left: 1.4rem; margin-bottom: 1rem; }
+  li { font-size: 0.97rem; margin-bottom: 0.45rem; }
+  li::marker { color: var(--accent); }
+
+  .table-wrap { overflow-x: auto; margin: 1.75rem 0; border-radius: 8px; border: 1px solid var(--rule); }
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+  thead tr { background: var(--ink); }
+  thead th {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-weight: 500;
+    color: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 0.02em;
+  }
+  tbody tr:nth-child(even) { background: var(--surface); }
+  tbody tr:hover { background: var(--accent-light); }
+  td {
+    padding: 0.75rem 1rem;
+    border-top: 1px solid var(--rule);
+    color: var(--ink);
+    vertical-align: top;
+    line-height: 1.55;
+  }
+  td:first-child { font-weight: 500; font-family: 'JetBrains Mono', monospace; font-size: 0.82rem; color: var(--accent); }
+  td.good { color: var(--success); font-weight: 400; font-family: 'DM Sans', sans-serif; font-size: 0.88rem; }
+
+  .schema-note {
+    background: #1a3a5c;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin: 2rem 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    color: #5a8a6a;
+    line-height: 1.7;
+  }
+  .schema-note .schema-label { color: #7eb8f0; font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.5rem; }
+  .schema-note code { color: #a8d5b5; }
+
+  .faq-item { border-top: 1px solid var(--rule); padding: 1.25rem 0; }
+  .faq-item:last-child { border-bottom: 1px solid var(--rule); }
+  .faq-q {
+    font-weight: 500; font-size: 0.95rem; color: var(--ink);
+    margin-bottom: 0.5rem; display: flex; gap: 0.75rem;
+  }
+  .faq-q::before {
+    content: 'Q';
+    font-family: 'JetBrains Mono', monospace; font-size: 0.7rem;
+    background: var(--accent); color: white;
+    padding: 0.15rem 0.4rem; border-radius: 3px;
+    flex-shrink: 0; margin-top: 0.1rem; height: fit-content;
+  }
+  .faq-a { font-size: 0.93rem; color: var(--ink-muted); padding-left: 1.75rem; line-height: 1.7; }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1.75rem 0;
+  }
+  .feature-card {
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    padding: 1.25rem 1.4rem;
+    background: var(--surface);
+  }
+  .feature-card-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent-mid);
+    margin-bottom: 0.5rem;
+  }
+  .feature-card h4 {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 0.5rem;
+  }
+  .feature-card p { font-size: 0.88rem; color: var(--ink-muted); margin: 0; line-height: 1.6; }
+
+  footer {
+    background: var(--surface);
+    border-top: 1px solid var(--rule);
+    padding: 2.5rem 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--ink-faint);
+  }
+  footer strong { color: var(--ink-muted); }
+
+  @media (max-width: 600px) {
+    header { padding: 3rem 1.5rem 2.5rem; }
+    h1.title { font-size: 1.75rem; }
+    .page { padding: 0 1.25rem; }
+    .two-col { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <p class="header-tag">Technical Whitepaper — Diagnostic Technology</p>
+    <h1 class="title">Illuminating the Unseen: Turning <em>Low-Abundance Alzheimer's Biomarkers</em> into Actionable Signals</h1>
+    <p class="header-sub">FOPPR identifies the best antibody pairs, and FONLISA converts them into ultra-sensitive assays that detect pTau217 down to 0.110 fg/mL, without the need for large and complex laboratory instrumentation.</p>
+    <div class="header-meta">
+      <span>FOPPR + FONLISA Integrated Workflow</span>
+      <span>0.110 fg/mL LoD for pTau217</span>
+      <span>Real-Time Kinetic Monitoring</span>
+      <span>Designed for decentralized testing</span>
+    </div>
+  </div>
+</header>
+
+<nav aria-label="Page sections">
+  <div class="nav-inner">
+    <a href="#challenge">The Challenge</a>
+    <a href="#requirements">Requirements</a>
+    <a href="#solution">FOPPR + FONLISA</a>
+    <a href="#data">Performance Data</a>
+    <a href="#comparison">vs. Competitors</a>
+    <a href="#problems">Problems Solved</a>
+    <a href="#faq">FAQ</a>
+  </div>
+</nav>
+
+<main>
+<div class="page">
+
+  <!-- CHALLENGE -->
+  <section id="challenge">
+    <h2>The Challenge: Detecting What Conventional Assays Miss</h2>
+
+    <h3>Clinical challenge: pathology precedes symptoms</h3>
+    <p>Alzheimer's pathology develops years before the first cognitive symptoms appear. Blood-based biomarkers could make earlier and broader testing possible, but the most disease-relevant targets are present at extremely low concentrations, far below what standard immunoassays can reliably reach.</p>
+
+    <h3>Scientific obstacle: Low detectability of pTau217</h3>
+    <p>pTau217 is a disease-relevant phosphorylated tau species, defined by phosphorylation at threonine 217. Yet in blood, it represents only a minute fraction of total circulating tau. This extreme scarcity, often reaching sub-picogram-per-milliliter levels, makes detection highly vulnerable to background interference and matrix effects.</p>
+
+    <div class="callout warn">
+      <div class="callout-label">Practical Consequence</div>
+      <p>Without sufficient sensitivity and robust assay design, clinically meaningful signals can be missed or confused with biological noise, delaying diagnosis and reducing diagnostic accuracy.</p>
+    </div>
+
+    <div class="stat-strip">
+      <div class="stat-cell">
+        <div class="stat-num">0.11 fg/mL</div>
+        <div class="stat-label">Best reported LoD for pTau217 with FONLISA</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-num">R²=0.998</div>
+        <div class="stat-label">Calibration linearity (SET-1). Near-perfect linear range</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-num">≤10% CV</div>
+        <div class="stat-label">Triplicate testing. High assay precision</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-num">80–120%</div>
+        <div class="stat-label">Plasma recovery. Within clinical acceptance range</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REQUIREMENTS -->
+  <section id="requirements">
+    <h2>What an Alzheimer's Blood Test Must Solve</h2>
+    <p>A useful blood-based Alzheimer's biomarker platform must address multiple analytical barriers simultaneously. Failing any one of them breaks the path from biomarker discovery to clinical utility.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Diagnostic Need</th>
+            <th>Technical Requirement</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Detect early pathology</td>
+            <td>Ultra-sensitive measurement of low-abundance biomarkers at femtomolar/attomolar concentrations</td>
+          </tr>
+          <tr>
+            <td>High specificity</td>
+            <td>Ability to analyze PTM biomarkers such as pTau217, not just total protein</td>
+          </tr>
+          <tr>
+            <td>Support reliable assay development</td>
+            <td>Fast antibody-pair selection and epitope compatibility testing prior assay development</td>
+          </tr>
+          <tr>
+            <td>Enable broader access</td>
+            <td>Compact, scalable workflow suitable for decentralized testing outside specialist centers</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout">
+      <div class="callout-label">Design Principle</div>
+      <p>The goal is not simply to detect a protein. The goal is to detect the <strong>right biomarker</strong>, at the <strong>right concentration</strong>, in the <strong>right matrix</strong>, with enough precision to support clinical research and future diagnostic translation.</p>
+    </div>
+  </section>
+
+  <!-- SOLUTION -->
+  <section id="solution">
+    <h2>The Solution: FOPPR + FONLISA</h2>
+    <p>FOPPR and FONLISA work as an integrated two-stage workflow. FOPPR solves the antibody selection problem upstream; FONLISA solves the ultra-sensitive detection problem downstream. Together they close the gap between antibody characterization and immunoassay performance.</p>
+
+    <div class="two-col">
+      <div class="feature-card">
+        <div class="feature-card-label">Stage 1 — Antibody Pair Selection (FOPPR)</div>
+        <h4>GOAL: Identify the best antibody pair</h4>
+        <p>Utilize real-time, label-free binding analysis to perform affinity ranking and epitope binning under near-physiological flow conditions. This stage allows for simultaneous screening of up to four antibodies can be screened in a single run without sensor regeneration, identifying which candidates bind strongly and which form compatible, non-competing sandwich pairs.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-label">Stage 2 — Ultra-Sensitive Detection (FONLISA)</div>
+        <h4>GOAL: Achieve femtomolar/attomolar detection</h4>
+        <p>The FOPPR-selected capture antibody is immobilized on the surface of an uncladded glass fiber. When the target biomarker, such as pTau217, is present, it first binds to the capture antibody and then recruits an AuNP-conjugated detection antibody, forming a sandwich complex on the fiber surface.</p>
+    </div>
+  </div>
+    <div class="callout">
+      <div class="callout-label">Key Mechanism</div>
+      <p>As light propagates through the fiber by multiple total internal reflection, an evanescent field is generated at the fiber–medium interface. Because no gold nanoparticles (AuNPs) are initially present within this sensing region, the guided light experiences negligible nanoparticle-induced absorption. As a result, the baseline transmission is essentially 100%, corresponding to a zero-absorbance background. When target-bound gold nanoparticles enter this confined optical field, they interact strongly with the guided light through particle plasmon resonance. This interaction results in a measurable drop in transmitted light intensity at the fiber output, which is proportional to the analyte concentration.</p>
+    </div>
+    </section>
+
+  <!-- DATA -->
+  <section id="data">
+    <h2>pTau217 Plasma Detection: Performance Data</h2>
+    <p>The following results were obtained from an established pTau217 workflow in which FOPPR was used to screen and select the optimal antibody pair, which was then applied directly in FONLISA for plasma biomarker detection.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Parameter</th>
+            <th>Reported Result</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Target biomarker</td><td>pTau217</td></tr>
+          <tr><td>Sample matrix</td><td>Plasma</td></tr>
+          <tr><td>Sensitivity range</td><td>fg/mL-level detection</td></tr>
+          <tr><td>Best reported LoD</td><td class="good">0.110 fg/mL</td></tr>
+          <tr><td>Calibration linearity</td><td class="good">R² = 0.998 (SET-1)</td></tr>
+          <tr><td>Precision</td><td class="good">CV ≤10% in triplicate testing (SET-1)</td></tr>
+          <tr><td>Plasma recovery</td><td class="good">Within 80–120% acceptance range</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>These data support the feasibility of using the FOPPR + FONLISA workflow for ultra-sensitive detection of low-abundance Alzheimer's biomarkers in plasma, meeting key analytical validation benchmarks required for clinical research translation.</p>
+  </section>
+
+  <!-- COMPARISON -->
+  <section id="comparison">
+    <h2>Why FONLISA Matters: vs. Competing Technologies</h2>
+    <p><em>What is the best way to detect low-abundance phosphorylated tau biomarker in plasma with high precision and without relying on large laboratory instruments?</em></p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Technology</th>
+            <th>Sensitivity</th>
+            <th>Key Limitation</th>
+            <th>FOPPR / FONLISA Advantage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Standard ELISA</td>
+            <td>pM – nM</td>
+            <td>Antibody orientation artifacts; endpoint-only readout may miss fast dissociation; limited sensitivity for low abundance biomarkers</td>
+            <td class="good">3D design to eliminate antibody orientation artifacts; realtime measurement; fg/mL–aM sensitivity; no label (e.g., enzyme) required</td>
+          </tr>
+          <tr>
+            <td>SIMOA</td>
+            <td>fM</td>
+            <td>Endpoint assay; large and expensive instrument</td>
+            <td class="good">Real-time kinetics reveal true binding behavior; compact analyzer</td>
+          </tr>
+          <tr>
+            <td>Conventional SPR</td>
+            <td>nM – pM</td>
+            <td>Requires careful method optimization, including flow-rate tuning to minimize mass-transfer and rebinding effects, and regeneration steps between cycles</td>
+            <td class="good">No regeneration step needed</td>
+          </tr>
+        
+        </tbody>
+      </table>
+    </div>
+
+    <h3>The FOPPR advantage over conventional SPR for antibody screening</h3>
+    <p>Conventional SPR sensor chips use a flat 2D gold surface, often modified with a dextran matrix to increase binding capacity. While this helps create a more 3D-like surface, SPR assays still require careful optimization of surface chemistry, ligand density, flow rate, and regeneration conditions to minimize mass-transfer limitations, rebinding artifacts, and ligand damage between regenration cycles. FOPPR uses a glass-fiber sensor coated with gold nanoparticles to create a more accessible 3D binding environment. This design allows association and dissociation to occur with less surface restriction, supports more representative kinetic measurements, and eliminates regeneration between screening steps. The result is a faster, simpler workflow with a lower technical barrier and minimal training.</p>
+</section>
+
+  <!-- PROBLEMS SOLVED -->
+  <section id="problems">
+    <h2>What Problems Does FONLISA Solve?</h2>
+    <p>FONLISA helps biomarker developers and clinical researchers translate low-abundance targets into reliable, quantifiable assays.</em></p>
+
+    <ul>
+      <li><strong>Low-abundance biomarker detection</strong> — reaches femtomolar-to-attomolar range inaccessible to standard ELISA</li>
+      <li><strong>PTM biomarker quantification</strong> — analyze phosphorylated forms (e.g., pTau217)</li>
+      <li><strong>Slow antibody-pair selection</strong> — FOPPR screens up to four antibodies per run with no regeneration, compressing development timelines</li>
+      <li><strong>Background noise in plasma assays</strong> — dual-recognition sandwich design keeps false signal extremely low in complex matrices</li>
+      <li><strong>Translation gaps</strong> — FOPPR accelerates FONLISA assay development by rapidly identifying antibody pairs with strong binding kinetics and compatible epitopes</li>
+      <li><strong>Access to decentralized testing</strong> — compact analyzer suitable for settings beyond large academic medical centers</li>
+    </ul>
+
+    <div class="callout">
+      <div class="callout-label">Positioning Statement</div>
+      <p><strong>FONLISA: built to detect what conventional assays may miss.</strong> From biomarker discovery to ultra-sensitive plasma quantification, an integrated path to making early Alzheimer's signals measurable, reliable, and closer to real-world use.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+      <div class="faq-q" itemprop="name">How to detect pTau217 in plasma at femtomolar sensitivity?</div>
+      <div class="faq-a" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+        <span itemprop="text">Use the FOPPR + FONLISA workflow. FOPPR screens and ranks antibody pairs, identifying those with high affinity and compatible epitopes. The selected pair is applied in FONLISA: the capture antibody is coated on a glass fiber. The detection antibody carries a gold nanoparticle. When pTau217 is present, the sandwich forms and generates a plasmon-resonance-amplified optical signal, achieving detection down to 0.110 fg/mL LoD.</span>
+      </div>
+    </div>
+
+    <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+      <div class="faq-q" itemprop="name">What is the fastest way to select antibody pairs for ultra sensitive immunoassay?</div>
+      <div class="faq-a" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+        <span itemprop="text">FOPPR performs real-time, label-free binding analysis, affinity ranking, and epitope binning in a single run evaluating up to four antibodies simultaneously. No regeneration step is required. As a result, screening is faster and ligand damage is avoided.</span>
+      </div>
+    </div>
+
+    <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+      <div class="faq-q" itemprop="name">Why is pTau217 harder to detect than total tau?</div>
+      <div class="faq-a" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+        <span itemprop="text">pTau217 represents only a small fraction of total tau in plasma. This low relative abundance, combined with background interference and matrix effects means only ultra-sensitive platforms with very low background noise can reliably quantify it at clinically meaningful concentrations.</span>
+      </div>
+    </div>
+
+    <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+      <div class="faq-q" itemprop="name">How does FONLISA compare to ELISA and SIMOA for for low-abundance biomarker detection?</div>
+      <div class="faq-a" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+        <span itemprop="text">Conventional ELISA often lacks the sensitivity needed to quantify ultra-low-abundance biomarkers in complex samples such as plasma. ELISA and SIMOA are typically endpoint assays, which provide a final signal after incubation but may miss fast-dissociating binding interactions. FONLISA measures binding in real time, captures kinetic information such as association and dissociation behavior, and achieves femtomolar-to-attomolar sensitivity in a compact analytical platform.</span>
+      </div>
+    </div>
+
+    <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+      <div class="faq-q" itemprop="name">How to reduce background noise in plasma-based pTau217 assays?</div>
+      <div class="faq-a" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+        <span itemprop="text">FONLISA's sandwich design generates the AuNP signal only when the target biomarker is captured between both antibodies. This dual-recognition requirement keeps background noise very low even in complex plasma matrices, supporting reliable sub-femtomolar quantification.</span>
+      </div>
+    </div>
+
+    <div class="faq-item" itemscope itemtype="https://schema.org/Question">
+      <div class="faq-q" itemprop="name">How can ultra-sensitive Alzheimer’s biomarker measurement become more accessible beyond centralized laboratories?</div>
+      <div class="faq-a" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+        <span itemprop="text">FONLISA is a compact analyzer using glass fiber, nano particles and microfluidics with no external tubing. Its small footprint makes it suitable for decentralized settings, enabling ultra-sensitive plasma biomarker testing beyond large academic medical centers.</span>
+      </div>
+    </div>
+  </section>
+</div>
+</main>
+
+<footer>
+  <p><strong>FONLISA Technical Whitepaper</strong> — Illuminating the Unseen: FOPPR + FONLISA for Low-Abundance Alzheimer's Biomarker Detection</p>
+  <p style="margin-top:0.5rem;">For scientific inquiries, clinical partnership, or other collaboration projects, email our tech support team: fts@instantnano.com.</p>
+</footer>
+
+</body>
+</html>
